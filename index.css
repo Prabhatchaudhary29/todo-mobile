@@ -1,4 +1,5 @@
 .container{
+    margin-top: -4%;
     display: flex;
     flex-direction: row;
 }
@@ -17,7 +18,7 @@
 }
 .header3{
     margin-top: 12%;
-    margin-left: 150px;
+    margin-left: 260px;
 }
 .header4{
     margin-top: 12%;
@@ -35,6 +36,9 @@
     justify-content: space-around;
     margin-left: 22%;
     margin-right: 32%;
+    flex-wrap: wrap;
+    height: 340px;
+    overflow-y: scroll;
 }
 .card{  
     border: 1px solid red;    
@@ -46,6 +50,7 @@
     font-size: x-large;
     padding-top: 22px;
     margin-left: 15px;
+    margin-top: 10px;
 }
 .cardanchor{
     text-decoration: none;
@@ -63,6 +68,8 @@
         content-visibility: hidden;
     }
     .container2{
+        flex-wrap: nowrap;
+        overflow: visible;
         flex-direction: column;
         align-items: center;
     }
